@@ -1,2 +1,21 @@
 ---
 # tasks file for minimal_centos
+
+# ===
+# https://docs.ansible.com/ansible/latest/collections/ansible/builtin/dnf_module.html
+# ===
+
+- name: ensure that un-needed packages are removed from the centos host
+  dnf:
+    name:
+      - nano
+      - httpd
+      - telnet
+      - telnet-server
+      - xinetd
+    state: absent
+    autoremove: yes
+
+- name: autoremove unneeded packages installed as dependencies
+  dnf:
+    autoremove: yes
