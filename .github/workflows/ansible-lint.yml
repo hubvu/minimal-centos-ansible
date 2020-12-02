@@ -1,6 +1,13 @@
 name: Ansible Lint 
 
-on: [push, pull_request]
+# only trigger the action to the master branch on push and pull_request
+on:
+  push:
+    branches: 
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
