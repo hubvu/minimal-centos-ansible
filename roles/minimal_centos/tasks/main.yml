@@ -8,7 +8,7 @@
 - name: ensure that un-needed packages are removed from the centos host
   dnf:
     name:
-      - openssh-clients 
+      - openssh-clients
       - nano
       - httpd
       - squid
