@@ -8,11 +8,25 @@
 - name: ensure that un-needed packages are removed from the centos host
   dnf:
     name:
+      - openssh-clients 
       - nano
       - httpd
+      - squid
       - telnet
       - telnet-server
       - xinetd
+      - nmap-ncat
+      - samba
+      - mutter
+      - sendmail
+      - exim
+      - dovecot
+      - cups
+      - nfs-utils
+      - rpcbind
+      - vsftpd
+      - proftpd
+      - pure-ftpd
     state: absent
     autoremove: yes
 
