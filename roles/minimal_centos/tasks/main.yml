@@ -27,6 +27,10 @@
       - vsftpd
       - proftpd
       - pure-ftpd
+      - rsh
+      - rsh-server
+      - tftp
+      - tftp-server
     state: absent
     autoremove: yes
 
