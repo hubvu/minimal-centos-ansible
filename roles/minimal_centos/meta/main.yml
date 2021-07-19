@@ -1,6 +1,6 @@
 galaxy_info:
   author: hubvu
-  description: an ansible role that removes un-needed packages from an already minimal CentOS install
+  description: Ansible Role that checks and ensures that non-essential packages are removed from a new CentOS server installation.
   company: N/A
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -30,8 +30,7 @@ galaxy_info:
   platforms:
    - name: CentOS
      versions:
-     - 8
-     - 7
+     - 8-stream
   # - name: SomePlatform
   #   versions:
   #   - all
