@@ -5,7 +5,7 @@
 # https://docs.ansible.com/ansible/latest/collections/ansible/builtin/dnf_module.html
 # ===
 
-- name: ensure that un-needed packages are removed from the centos host
+- name: ensure that non-essential packages are removed from the centos host
   dnf:
     name:
       - openssh-clients
@@ -34,6 +34,6 @@
     state: absent
     autoremove: yes
 
-- name: autoremove unneeded packages installed as dependencies
+- name: autoremove non-essential packages installed as dependencies
   dnf:
     autoremove: yes
