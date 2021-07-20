@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/hubvu/minimal-centos-ansible/actions" alt="Ansible Lint">
-    <img src="https://github.com/hubvu/minimal-centos-ansible/workflows/Ansible%20Lint/badge.svg?branch=main">
+    <img src="https://github.com/hubvu/minimal-centos-ansible/actions/workflows/ansible-lint.yml/badge.svg?branch=main">
   </a>
   <a href="https://github.com/hubvu/minimal-centos-ansible/releases" alt="GitHub Release">
     <img src="https://img.shields.io/github/v/release/hubvu/minimal-centos-ansible.svg">
