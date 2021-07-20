@@ -1,7 +1,7 @@
 ## Ansible Role - Minimal CentOS Server
 
 <p align="center">
-  <a href="https://github.com/hubvu/minimal-centos-ansible/blob/main/.github/workflows/ansible-lint.yml" alt="Ansible Lint">
+  <a href="https://github.com/hubvu/minimal-centos-ansible/actions" alt="Ansible Lint">
     <img src="https://github.com/hubvu/minimal-centos-ansible/workflows/Ansible%20Lint/badge.svg?branch=main">
   </a>
   <a href="https://github.com/hubvu/minimal-centos-ansible/releases" alt="GitHub Release">
