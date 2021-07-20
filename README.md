@@ -1,7 +1,7 @@
 ## Ansible Role - Minimal CentOS Server
 
 <p align="center">
-  <a href="https://github.com/hubvu/minimal-centos-ansible/workflows/" alt="Ansible Lint">
+  <a href="https://github.com/hubvu/minimal-centos-ansible/blob/main/.github/workflows/ansible-lint.yml" alt="Ansible Lint">
     <img src="https://github.com/hubvu/minimal-centos-ansible/workflows/Ansible%20Lint/badge.svg?branch=main">
   </a>
   <a href="https://github.com/hubvu/minimal-centos-ansible/releases" alt="GitHub Release">
@@ -97,7 +97,7 @@ $ ansible-playbook site.yaml \
 
 ### Acknowledgements
 
-* [CIS - CentOS Linux Benchmark](https://www.cisecurity.org/benchmark/centos_linux/)
+* [CIS - CentOS Linux Benchmark](https://www.cisecurity.org/benchmark/centos_linux/).
 * [Ansible Lint](https://github.com/ansible-community/ansible-lint).
 * [Ansible Lint for GitHub Action](https://github.com/ansible/ansible-lint-action).
 
